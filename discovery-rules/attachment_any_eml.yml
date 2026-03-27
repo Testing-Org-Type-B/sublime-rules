@@ -7,5 +7,6 @@ authors:
   - twitter: "und3rf10w"
 source: |
   type.inbound
+  //and test
   and any(attachments, .file_extension =~ 'eml')
 
